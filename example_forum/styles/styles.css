@@ -1,0 +1,160 @@
+header{
+	background-color : #2f6f93;
+	text-align : center;
+	padding-top : 20px;
+	padding-bottom : 0px;
+	
+}
+
+body {
+		background-color : #cec454;
+		
+}
+
+
+
+footer {
+	text-align : center;
+	padding : auto;
+	width : 99%;
+	background-color : #2f6f93;
+}
+footer p {
+	display : flex;
+	justify-content : center;
+}
+.Navigation {
+	display : flex;
+	flex-flow : row nowrap;
+	justify-content : flex-end;
+	list-style-type : none;
+	border-collapse : collapse;
+}
+.Navigation .Button {
+	background-color : gray;
+	border : 1px solid black;
+}
+
+
+.Navigation li {
+	margin : 5px;
+	padding : 2px 3px;
+	
+}
+
+.Navigation li a {
+	text-decoration : none;
+	color : black;
+}
+
+.Index_description {
+	text-align : center;
+}
+
+.Client_box {
+	margin : auto 33%;
+	margin-bottom : 50px;
+	display : flex;
+	flex-flow : column wrap;
+	align-content : center;
+	background-color : #2f6f93;
+	padding-bottom : auto;
+}
+
+.Client_box_Questions {
+	margin : auto 10%;
+	margin-bottom : 50px;
+	display : flex;
+	flex-flow : column wrap;
+	align-content : center;
+	background-color : #2f6f93;
+	padding-bottom : auto;
+}
+	
+.Client_form {
+	display : flex;
+	flex-flow : column wrap;
+	align-content : center;
+}
+
+.Client_form .Button{
+	align-self : flex-end;
+}
+
+
+.Question_Table{
+	border : 1px solid black;
+	border-collapse: collapse;
+	text-align : center;
+	width : 75%;
+	margin : auto;
+	margin-bottom : 50px;
+}
+
+.Question_Table button{
+	background-color : gray;
+	border : 1px solid black;
+}
+
+.Question_Row td{
+	border : 1px solid black;
+}
+
+.Question_Row:nth-child(odd){
+	background-color : #bfc6af;
+}
+
+.Question_Row:nth-child(even){
+	background-color : #626659;
+}
+
+.Question_Row a{
+	text-decoration : none;
+	color : black;
+}
+
+.Question_Row .Link:hover {
+	
+	text-decoration : none;
+	color : black;
+	background-color : #2f6f93;
+}
+
+.Question_Row a:visited , a:active{
+	text-decoration : underline;
+	color : black;
+	
+}
+
+.List_Construction {
+	display : flex;
+	flex-direction : column;
+	text-align: center;
+	align-content : center;
+
+}
+
+.List_Construction , .List_Construction ul{
+	list-style-type : none;
+
+}
+
+.List_Construction li {
+	
+}
+
+.List_Construction .Title , .Body , .Author {
+	border : 1px solid black;
+	background-color : white;
+}
+
+.List_Construction .Author {
+	align-self : flex-end;
+}
+
+.List_Construction .Button {
+	background-color : gray;
+	border : 1px solid black;
+	size : 33%;
+}
+
